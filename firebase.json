@@ -1,0 +1,9 @@
+{
+  "firebase": "my-angular-fire",
+  "public": "app",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
