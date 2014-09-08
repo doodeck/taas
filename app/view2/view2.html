@@ -1,8 +1,10 @@
 <p>This is the partial for view 2.</p>
-<div ng-controller="MyCtrl2">
+
+<!-- <div ng-controller="MyCtrl2"> -->
+<div>
   <ul>
     <li ng-repeat="message in messages"> <!-- {{message.text}}</li> -->
-
+    
     <!-- exit a message -->
     <input ng-model="message.text" ng-change="messages.$save(message)" />
 
@@ -18,6 +20,7 @@
   </form>
 
 </div>
+
 <p>
   Showing of 'interpolate' filter:
   {{ 'Current version is v%VERSION%.' | interpolate }}
